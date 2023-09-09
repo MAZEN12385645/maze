@@ -259,7 +259,7 @@ position: absolute;
             }
             .main h2{
                 color: white;
-                font-size:2em;
+                font-size:1.5em;
                 font-weight: bold;
                 position: relative;
                 right: 100px;
@@ -269,7 +269,7 @@ position: absolute;
                 display:inline-block;
                 margin-top: 10px;
                 color:#4e9eff;
-                font-size:1.8em;
+                font-size:1.5em;
             font-weight: bold;
             text-shadow: 2px 2px 70px;
             clear: both;
