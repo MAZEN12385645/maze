@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 header{
 background-color: black;
@@ -22,7 +23,32 @@ text-decoration:none;
 text-transform: uppercase;
 font-weight: 700;
 font-size: 1.8em;
-text-shadow: 2px 2px 20px rgb(140, 0, 255);
+text-shadow: 2px 2px 20px #4e9eff;
+animation-name:mazen ;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes mazen{
+    0%{
+        color: #4e9eff;
+        text-shadow: 2px 2px 20px #4e9eff;
+    }
+    25%{
+        color: red;
+        text-shadow: 2px 2px 20px  red;
+    }
+    50%{
+color: rgb(0, 255, 17);
+text-shadow: 2px 2px 20px rgb(0, 255, 17);
+    }
+    75%{
+        color: blue;
+        text-shadow: 2px 2px 20px blue;
+    }
+    100%{
+       color: #4e9eff;
+        text-shadow: 2px 2px 20px #4e9eff;
+    }
 }
 .navigation a {
     color:#4e9eff;
@@ -82,95 +108,274 @@ font-size: 1.6em;
 padding-right: 30px;
 text-shadow: 2px 2px 60px;
 }
-.page {
-    color: blueviolet;
- font-size: 1.8em;
- padding-left: 600px;
- padding-top: 500px;
-}
+
 .pagea {
 color: #4e9eff;
-font-size: 1.9em;
-padding-left: 21%;
-padding-top:20px ;
-background-color:white
+font-size: 2em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+text-shadow: 2px 0px 60px;
+border-left: solid 5px ;
+padding-left: 20px;
+position: relative;
+left: 20px;
 }
 .new {
     color: #4e9eff;
-padding-top: 100px;
-padding-left: 25%;
 font-size: 60px;
+position: relative;
+left: 30px;
+
 }
 p {
-    padding-top: 6980px;
     font-size: 5em;
-    color:#e8e8e8fe;
+    color:#000000fe;
    }
    body {
-    background-color:#fffffffe;
+    background-color:#000000fe;
    height: 100px;
    }
    .icon1 {
-    max-width:max-content;
     color: #e8e8e8fe;
-    background-color: white;
-    width: 500px;
-    height: 400px;
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 1000px;
  border-radius: 15px;
- width: fit-content;
-   margin:  auto;
-   margin-bottom: 200px;
-   box-shadow: 0px 0px 100px black;
+   box-shadow: 0px 10px 200px #4e9eff59;
    position: relative;
  top: 200px;
+right: 10px;
+}
+.text{
+    position: relative;
+    bottom: 50px;
+  
+}
+
+.html{
+width: 600px;
+height: 20px;
+background-color:#204471;
+border-radius: 10px;
+position: relative;
+left: 20px;
+top: 50px;
+box-shadow: 100px 0px 200px #4289e1;
+}
+.html::before{
+    content: "";
+    width: 500px;
+height: 20px;
+background-color:#4289e1;
+border-radius: 10px;
+position: absolute;
 
 }
-   iframe{
-    border:solid #4e9eff;
-    border-radius: 20px; 
-    box-shadow: 0px 0px 100px #4e9eff;
-    
-   }
-   .sqa{
-    width:50px;
-    height: 50px;
-    background-color: red;
-    box-shadow: 0px 0px 50px red;
-    border-radius: 10px;
-    position: relative;
-    bottom: 900px;
-    animation-name: mazen;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-   }
-   @keyframes mazen{
-    0%{
-        translate: 0px 0px ;
-        background-color: red;
-        box-shadow: 0px 0px 50px  red;
-    }
-    25%{
-        translate: 800px 1px;
-    rotate: 90deg;
-    background-color: rgb(246, 255, 0);
-    box-shadow: 0px 0px 50px  rgb(246, 255, 0);
-    }
-    50%{
-        translate: 800px -600px;
-    rotate: 180deg;
-    background-color: rgb(0, 255, 4);
-    box-shadow: 0px 0px 50px  rgb(0, 255, 4);
-    }
-    75%{
-        translate: -200px -600px;
-        rotate: 270deg;
-        background-color:blue;
-        box-shadow: 0px 0px 50px  blue;
-    }
-    100%{
-        translate: -200px 0px;
-        rotate: 360deg;
-        background-color: red;
-        box-shadow: 0px 0px 50px  red;
-    }
-   }
+.css{
+    width: 600px;
+height: 20px;
+background-color:#204471;
+border-radius: 10px;
+position: relative;
+left: 20px;
+top: 200px;
+box-shadow: 100px 0px 200px #4289e1;
+
+}
+
+.css::before{
+    content: "";
+    width: 550px;
+height: 20px;
+background-color:#4289e1;
+border-radius: 10px;
+position: absolute;
+}
+   
+   @media screen and (max-width:600px) {
+    header{
+        background-color: black;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 100px;
+        }
+        .logo{
+            text-decoration:none;
+               color:#4e9eff;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 1em;
+            text-shadow: 2px 2px 20px #4e9eff;
+            animation-name:mazen ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            }
+            @keyframes mazen{
+                0%{
+                    color: #4e9eff;
+                    text-shadow: 2px 2px 20px #4e9eff;
+                }
+                25%{
+                    color: red;
+                    text-shadow: 2px 2px 20px  red;
+                }
+                50%{
+            color: rgb(0, 255, 17);
+            text-shadow: 2px 2px 20px rgb(0, 255, 17);
+                }
+                75%{
+                    color: blue;
+                    text-shadow: 2px 2px 20px blue;
+                }
+                100%{
+                   color: #4e9eff;
+                    text-shadow: 2px 2px 20px #4e9eff;
+                }
+            }
+            .navigation a {
+                color:#4e9eff;
+                text-decoration: none;
+                font-size: 1em;
+                font-weight: 250;
+                padding-left: 15px;
+                text-shadow: 2px 2px 60px;
+            }
+            .main{
+                width: 100%;
+                min-height: 50vh;
+            display: flex;
+            align-items: center;
+            background: url(sl_031420_28950_10.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: flex;
+            }
+            .main h2{
+                color: white;
+                font-size:1.3em;
+                font-weight: 500;
+            }
+            .main h2 span{
+                display:inline-block;
+                margin-top: 10px;
+                color:#4e9eff;
+                font-size: 1.3em;
+            font-weight: 600;
+            text-shadow: 2px 2px 60px;
+            }
+            .main h3{
+                color: white;
+            font-size: 1em;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            text-shadow: 2px 0px 60px;
+            border-left: solid 2.5px ;
+            padding-left: 15px;
+            
+            }
+            .scoial-icons a{
+                color: white;
+                font-size: 0.8em;
+                padding-right: 15px;
+                text-shadow: 2px 2px 60px;
+                }
+                .page {
+                    color: blueviolet;
+                 font-size: 0.6em;
+                 padding-left: 300px;
+                 padding-top: 250px;
+                }
+                .pagea {
+                    color: #4e9eff;
+                    font-size: 2em;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    margin-top: 10px;
+                    margin-bottom: 30px;
+                    text-shadow: 2px 0px 60px;
+                    border-left: solid 5px ;
+                    padding-left: 20px;
+                    position: relative;
+                    left: 20px;
+                    }
+                    .new {
+                        color: #4e9eff;
+                    font-size: 60px;
+                    position: relative;
+                    left: 30px;
+                    
+                    }
+                    p {
+                        font-size: 5em;
+                        color:#000000fe;
+                       }
+                       body {
+                        background-color:#000000fe;
+                       height: 100px;
+                       }
+                       .icon1 {
+                        color: #e8e8e8fe;
+                        background-color: rgb(0, 0, 0);
+                        width: 90%;
+                        height: 1000px;
+                     border-radius: 15px;
+                       box-shadow: 0px 10px 200px #4e9eff59;
+                       position: relative;
+                     top: 200px;
+                    right: 10px;
+                    }
+                    .text{
+                        position: relative;
+                        bottom: 50px;
+                      
+                    }
+                    
+                    .html{
+                    width: 300px;
+                    height: 20px;
+                    background-color:#204471;
+                    border-radius: 10px;
+                    position: relative;
+                    left: 20px;
+                    top: 50px;
+                    box-shadow: 100px 0px 200px #4289e1;
+                    }
+                    .html::before{
+                        content: "";
+                        width: 250px;
+                    height: 20px;
+                    background-color:#4289e1;
+                    border-radius: 10px;
+                    position: absolute;
+                    
+                    }
+                    .css{
+                        width: 300px;
+                    height: 20px;
+                    background-color:#204471;
+                    border-radius: 10px;
+                    position: relative;
+                    left: 20px;
+                    top: 200px;
+                    box-shadow: 100px 0px 200px #4289e1;
+                    
+                    }
+                    
+                    .css::before{
+                        content: "";
+                        width: 275px;
+                    height: 20px;
+                    background-color:#4289e1;
+                    border-radius: 10px;
+                    position: absolute;
+                    }
+   
+                }
