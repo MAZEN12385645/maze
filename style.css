@@ -21,12 +21,14 @@ padding: 10px 200px;
 text-decoration:none;
    color:#4e9eff;
 text-transform: uppercase;
-font-weight: 700;
+font-weight: 900;
 font-size: 1.8em;
 text-shadow: 2px 2px 20px #4e9eff;
 animation-name:mazen ;
 animation-duration: 10s;
 animation-iteration-count: infinite;
+position: relative;
+right: 200px;
 }
 @keyframes mazen{
     0%{
@@ -54,7 +56,7 @@ text-shadow: 2px 2px 20px rgb(0, 255, 17);
     color:#4e9eff;
     text-decoration: none;
     font-size: 1.1em;
-    font-weight: 500;
+    font-weight:700;
     padding-left: 30px;
     text-shadow: 2px 2px 60px;
     
@@ -129,10 +131,7 @@ position: relative;
 left: 30px;
 
 }
-p {
-    font-size: 5em;
-    color:#000000fe;
-   }
+
    body {
     background-color:#000000fe;
    height: 100px;
@@ -215,6 +214,8 @@ position: absolute;
             animation-name:mazen ;
             animation-duration: 10s;
             animation-iteration-count: infinite;
+            position: relative;
+            right: 60px;
             }
             @keyframes mazen{
                 0%{
@@ -248,7 +249,7 @@ position: absolute;
             }
             .main{
                 width: 100%;
-                min-height: 50vh;
+                min-height: 120vh;
             display: flex;
             align-items: center;
             background: url(sl_031420_28950_10.jpg);
@@ -302,19 +303,19 @@ position: absolute;
                 right: 150px;
                 }
                 .page {
-                    color: blueviolet;
+                    color: rgb(82, 67, 97);
                  font-size: 0.6em;
                  padding-left: 300px;
                  padding-top: 250px;
                 }
                 .pagea {
                     color: #4e9eff;
-                    font-size: 2em;
+                    font-size: 1em;
                     font-weight: 700;
                     letter-spacing: 1px;
                     margin-top: 10px;
                     margin-bottom: 30px;
-                    text-shadow: 2px 0px 60px;
+                    text-shadow: 0px 0px 100px;
                     border-left: solid 5px ;
                     padding-left: 20px;
                     position: relative;
@@ -322,15 +323,12 @@ position: absolute;
                     }
                     .new {
                         color: #4e9eff;
-                    font-size: 60px;
+                    font-size: 40px;
                     position: relative;
                     left: 30px;
                     
                     }
-                    p {
-                        font-size: 5em;
-                        color:#000000fe;
-                       }
+                   
                        body {
                         background-color:#000000fe;
                        height: 100px;
