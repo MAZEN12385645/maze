@@ -141,7 +141,7 @@ p {
     color: #e8e8e8fe;
     background-color: rgb(0, 0, 0);
     width: 90%;
-    height: 1000px;
+    height: 600px;
  border-radius: 15px;
    box-shadow: 0px 10px 200px #4e9eff59;
    position: relative;
@@ -338,7 +338,7 @@ position: absolute;
                         color: #e8e8e8fe;
                         background-color: rgb(0, 0, 0);
                         width: 90%;
-                        height: 1000px;
+                        height: 600px;
                      border-radius: 15px;
                        box-shadow: 0px 10px 200px #4e9eff59;
                        position: relative;
