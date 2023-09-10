@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    transition: 0.5;
+    transition: 0.5s;
     
 }
 header{
-background-color: black;
+background-color: #e9f3ff;
 width: 100%;
 position: fixed;
 z-index: 999;
@@ -19,7 +19,7 @@ align-items: center;
 padding: 10px 200px;
 }
 .dark{
-    color: white;
+    color: rgb(0, 0, 0);
 font-size: 30px;  
 position: relative;
 right: 200px;
@@ -144,15 +144,15 @@ left: 30px;
 }
 
    body {
-    background-color:#000000fe;
+    background-color:white;
    }
-.icon1 {
+   .icon1 {
     color: #e8e8e8fe;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     width: 90%;
     height: 600px;
  border-radius: 15px;
-   box-shadow: 0px 10px 500px #4e9eff59;
+   box-shadow: 0px 10px 200px #4e9eff59;
    position: relative;
  top: 200px;
 right: 10px;
@@ -160,9 +160,12 @@ right: 10px;
 .text{
     position: relative;
     bottom: 50px;
-  
-}
+    color: black;
 
+}
+.hn{
+    color: black;
+}
 .html{
 width: 600px;
 height: 20px;
@@ -219,7 +222,7 @@ position: absolute;
    
    @media screen and (max-width:600px) {
     header{
-        background-color: black;
+        background-color: rgb(227, 227, 227);
         width: 100%;
         position: fixed;
         z-index: 999;
@@ -229,7 +232,7 @@ position: absolute;
         padding: 5px 100px;
         }
         .dark{
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
         font-size: 20px;  
         position: relative;
         right: 100px;
@@ -364,16 +367,16 @@ position: absolute;
                     }
                    
                        body {
-                        background-color:black;
+                        background-color:white;
                      
                        }
                        .icon1 {
                         color: #e8e8e8fe;
-                        background-color: rgb(0, 0, 0);
+                        background-color: white;
                         width: 90%;
                         height: 600px;
                      border-radius: 15px;
-                       box-shadow: 0px 10px 200px #4e9eff59;
+                       box-shadow: 0px 10px 500px #4e9eff59;
                        position: relative;
                      top: 200px;
                     right: 10px;
@@ -426,8 +429,7 @@ position: absolute;
                         left: 80px;
                         background-color: red;
                         cursor: pointer;
-                        }
-                    
+                    }
                     .css::before{
                         content: "";
                         width: 275px;
@@ -438,5 +440,6 @@ position: absolute;
                     }
    .hn{
     font-size: 20px;
+    color: black;
    }
-                                                  }
+                }
