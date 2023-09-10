@@ -285,7 +285,7 @@ position: absolute;
                 text-shadow: 2px 2px 60px;
             }
             .main{
-                width: 110%;
+                width: 120%;
                 min-height: 120vh;
             display: flex;
             align-items: center;
